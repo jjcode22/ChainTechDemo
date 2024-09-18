@@ -11,6 +11,7 @@
 		385AB2B52C9AA6B000759A38 /* AddPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B42C9AA6B000759A38 /* AddPasswordView.swift */; };
 		385AB2B72C9AA6EF00759A38 /* PasswordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B62C9AA6EF00759A38 /* PasswordDetailView.swift */; };
 		385AB2B92C9AA71800759A38 /* PasswordStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B82C9AA71800759A38 /* PasswordStrengthView.swift */; };
+		385AB2BE2C9AB20F00759A38 /* OutlinedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2BD2C9AB20F00759A38 /* OutlinedTextFieldStyle.swift */; };
 		3862A6DC2C9997F1009AD567 /* ChainTechDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */; };
 		3862A6E02C9997F5009AD567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3862A6DF2C9997F5009AD567 /* Assets.xcassets */; };
 		3862A6E32C9997F5009AD567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3862A6E22C9997F5009AD567 /* Preview Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		385AB2B42C9AA6B000759A38 /* AddPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPasswordView.swift; sourceTree = "<group>"; };
 		385AB2B62C9AA6EF00759A38 /* PasswordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailView.swift; sourceTree = "<group>"; };
 		385AB2B82C9AA71800759A38 /* PasswordStrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrengthView.swift; sourceTree = "<group>"; };
+		385AB2BD2C9AB20F00759A38 /* OutlinedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedTextFieldStyle.swift; sourceTree = "<group>"; };
 		3862A6D82C9997F1009AD567 /* ChainTechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainTechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTechDemoApp.swift; sourceTree = "<group>"; };
 		3862A6DF2C9997F5009AD567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,6 +118,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		385AB2BB2C9AB1FA00759A38 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				385AB2BC2C9AB20000759A38 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		385AB2BC2C9AB20000759A38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				385AB2BD2C9AB20F00759A38 /* OutlinedTextFieldStyle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3862A6CF2C9997F1009AD567 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +157,7 @@
 		3862A6DA2C9997F1009AD567 /* ChainTechDemo */ = {
 			isa = PBXGroup;
 			children = (
+				385AB2BB2C9AB1FA00759A38 /* Common */,
 				3862A7142C99C186009AD567 /* Extensions */,
 				3862A70C2C99A397009AD567 /* Managers */,
 				3862A70B2C99A38E009AD567 /* App */,
@@ -352,6 +371,7 @@
 				3862A7102C99A5C6009AD567 /* PasswordManager.swift in Sources */,
 				385AB2B92C9AA71800759A38 /* PasswordStrengthView.swift in Sources */,
 				385AB2B32C9AA68700759A38 /* HomeViewModel.swift in Sources */,
+				385AB2BE2C9AB20F00759A38 /* OutlinedTextFieldStyle.swift in Sources */,
 				3862A7162C99C1E1009AD567 /* Color+Hex.swift in Sources */,
 				3862A7132C99A7D9009AD567 /* HomeView.swift in Sources */,
 				3862A6E52C9997F5009AD567 /* Persistence.swift in Sources */,
