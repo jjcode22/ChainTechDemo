@@ -4,7 +4,6 @@
 //
 //  Created by JJMac on 17/09/24.
 //
-
 import SwiftUI
 
 struct HomeView: View {
@@ -24,35 +23,47 @@ struct HomeView: View {
                 }
                 .padding(.top)
                 
-                // Password List
-                ScrollView(.vertical) {
-                    VStack(spacing: 0) {
-                        ForEach(viewModel.passwords, id: \.self) { password in
-                            Button(action: {
-                                viewModel.selectPassword(password)
-                            }) {
-                                HStack(alignment: .center) {
-                                    Text(password.accountName ?? "Unknown")
-                                        .font(.title2)
-                                        .padding()
-                                        .bold()
-                                    Text("\(viewModel.maskPassword(password))")
-                                        .opacity(0.4)
-                                    Spacer()
-                                    Image(systemName: "chevron.forward")
-                                        .padding()
+                // Check if passwords list is empty
+                if viewModel.passwords.isEmpty {
+                    VStack {
+                        Text("No passwords available. Start by adding one by clicking ➕ button!")
+                            .font(.title)
+                            .foregroundColor(.gray)
+                            .multilineTextAlignment(.center)
+                            .padding(60)
+                        Spacer()
+                    }
+                } else {
+                    // Password List
+                    ScrollView(.vertical) {
+                        VStack(spacing: 0) {
+                            ForEach(viewModel.passwords, id: \.self) { password in
+                                Button(action: {
+                                    viewModel.selectPassword(password)
+                                }) {
+                                    HStack(alignment: .center) {
+                                        Text(password.accountName ?? "Unknown")
+                                            .font(.title2)
+                                            .padding()
+                                            .bold()
+                                        Text("\(viewModel.maskPassword(password))")
+                                            .opacity(0.4)
+                                        Spacer()
+                                        Image(systemName: "chevron.forward")
+                                            .padding()
+                                    }
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 40)
+                                            .stroke(Color(UIColor.systemGray4), lineWidth: 2)
+                                    )
+                                    .foregroundStyle(Color.black)
+                                    .background(Color.white)
+                                    .cornerRadius(40)
+                                    .padding()
                                 }
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 40)
-                                        .stroke(Color(UIColor.systemGray4), lineWidth: 2)
-                                )
-                                .foregroundStyle(Color.black)
-                                .background(Color.white)
-                                .cornerRadius(40)
-                                .padding()
                             }
+                            .shadow(color: .gray.opacity(0.15), radius: 2, x: 2, y: 2)
                         }
-                        .shadow(color: .gray.opacity(0.15), radius: 2, x: 2, y: 2)
                     }
                 }
             }
@@ -104,14 +115,6 @@ struct HomeView: View {
     }
 }
 
-
 #Preview {
     HomeView()
 }
-
-
-
-
-
-
-
