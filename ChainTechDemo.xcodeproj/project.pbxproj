@@ -12,7 +12,6 @@
 		385AB2B72C9AA6EF00759A38 /* PasswordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B62C9AA6EF00759A38 /* PasswordDetailView.swift */; };
 		385AB2B92C9AA71800759A38 /* PasswordStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B82C9AA71800759A38 /* PasswordStrengthView.swift */; };
 		3862A6DC2C9997F1009AD567 /* ChainTechDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */; };
-		3862A6DE2C9997F1009AD567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6DD2C9997F1009AD567 /* ContentView.swift */; };
 		3862A6E02C9997F5009AD567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3862A6DF2C9997F5009AD567 /* Assets.xcassets */; };
 		3862A6E32C9997F5009AD567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3862A6E22C9997F5009AD567 /* Preview Assets.xcassets */; };
 		3862A6E52C9997F5009AD567 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6E42C9997F5009AD567 /* Persistence.swift */; };
@@ -50,7 +49,6 @@
 		385AB2B82C9AA71800759A38 /* PasswordStrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrengthView.swift; sourceTree = "<group>"; };
 		3862A6D82C9997F1009AD567 /* ChainTechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainTechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTechDemoApp.swift; sourceTree = "<group>"; };
-		3862A6DD2C9997F1009AD567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3862A6DF2C9997F5009AD567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3862A6E22C9997F5009AD567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3862A6E42C9997F5009AD567 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -181,7 +179,6 @@
 		3862A70B2C99A38E009AD567 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				3862A6DD2C9997F1009AD567 /* ContentView.swift */,
 				3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */,
 			);
 			path = App;
@@ -351,7 +348,6 @@
 				3862A7132C99A7D9009AD567 /* HomeView.swift in Sources */,
 				3862A6E52C9997F5009AD567 /* Persistence.swift in Sources */,
 				385AB2B52C9AA6B000759A38 /* AddPasswordView.swift in Sources */,
-				3862A6DE2C9997F1009AD567 /* ContentView.swift in Sources */,
 				3862A6E82C9997F5009AD567 /* ChainTechDemo.xcdatamodeld in Sources */,
 				3862A70E2C99A3BE009AD567 /* EncryptionManager.swift in Sources */,
 				3862A6DC2C9997F1009AD567 /* ChainTechDemoApp.swift in Sources */,
