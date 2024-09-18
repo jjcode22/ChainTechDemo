@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385AB2B32C9AA68700759A38 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B22C9AA68700759A38 /* HomeViewModel.swift */; };
+		385AB2B52C9AA6B000759A38 /* AddPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B42C9AA6B000759A38 /* AddPasswordView.swift */; };
+		385AB2B72C9AA6EF00759A38 /* PasswordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B62C9AA6EF00759A38 /* PasswordDetailView.swift */; };
+		385AB2B92C9AA71800759A38 /* PasswordStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385AB2B82C9AA71800759A38 /* PasswordStrengthView.swift */; };
 		3862A6DC2C9997F1009AD567 /* ChainTechDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */; };
 		3862A6DE2C9997F1009AD567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6DD2C9997F1009AD567 /* ContentView.swift */; };
 		3862A6E02C9997F5009AD567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3862A6DF2C9997F5009AD567 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 		3862A6F22C9997F5009AD567 /* ChainTechDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6F12C9997F5009AD567 /* ChainTechDemoTests.swift */; };
 		3862A6FC2C9997F5009AD567 /* ChainTechDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6FB2C9997F5009AD567 /* ChainTechDemoUITests.swift */; };
 		3862A6FE2C9997F5009AD567 /* ChainTechDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A6FD2C9997F5009AD567 /* ChainTechDemoUITestsLaunchTests.swift */; };
+		3862A70E2C99A3BE009AD567 /* EncryptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A70D2C99A3BE009AD567 /* EncryptionManager.swift */; };
+		3862A7102C99A5C6009AD567 /* PasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A70F2C99A5C6009AD567 /* PasswordManager.swift */; };
+		3862A7132C99A7D9009AD567 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A7122C99A7D9009AD567 /* HomeView.swift */; };
+		3862A7162C99C1E1009AD567 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862A7152C99C1E1009AD567 /* Color+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		385AB2B22C9AA68700759A38 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		385AB2B42C9AA6B000759A38 /* AddPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPasswordView.swift; sourceTree = "<group>"; };
+		385AB2B62C9AA6EF00759A38 /* PasswordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailView.swift; sourceTree = "<group>"; };
+		385AB2B82C9AA71800759A38 /* PasswordStrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrengthView.swift; sourceTree = "<group>"; };
 		3862A6D82C9997F1009AD567 /* ChainTechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainTechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTechDemoApp.swift; sourceTree = "<group>"; };
 		3862A6DD2C9997F1009AD567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +60,10 @@
 		3862A6F72C9997F5009AD567 /* ChainTechDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainTechDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3862A6FB2C9997F5009AD567 /* ChainTechDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTechDemoUITests.swift; sourceTree = "<group>"; };
 		3862A6FD2C9997F5009AD567 /* ChainTechDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTechDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3862A70D2C99A3BE009AD567 /* EncryptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionManager.swift; sourceTree = "<group>"; };
+		3862A70F2C99A5C6009AD567 /* PasswordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManager.swift; sourceTree = "<group>"; };
+		3862A7122C99A7D9009AD567 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3862A7152C99C1E1009AD567 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385AB2B02C9AA66B00759A38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3862A7122C99A7D9009AD567 /* HomeView.swift */,
+				385AB2B42C9AA6B000759A38 /* AddPasswordView.swift */,
+				385AB2B62C9AA6EF00759A38 /* PasswordDetailView.swift */,
+				385AB2B82C9AA71800759A38 /* PasswordStrengthView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		385AB2B12C9AA66F00759A38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				385AB2B22C9AA68700759A38 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		3862A6CF2C9997F1009AD567 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +133,10 @@
 		3862A6DA2C9997F1009AD567 /* ChainTechDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */,
-				3862A6DD2C9997F1009AD567 /* ContentView.swift */,
+				3862A7142C99C186009AD567 /* Extensions */,
+				3862A70C2C99A397009AD567 /* Managers */,
+				3862A70B2C99A38E009AD567 /* App */,
+				3862A70A2C99A381009AD567 /* Core */,
 				3862A6DF2C9997F5009AD567 /* Assets.xcassets */,
 				3862A6E42C9997F5009AD567 /* Persistence.swift */,
 				3862A6E62C9997F5009AD567 /* ChainTechDemo.xcdatamodeld */,
@@ -131,6 +168,49 @@
 				3862A6FD2C9997F5009AD567 /* ChainTechDemoUITestsLaunchTests.swift */,
 			);
 			path = ChainTechDemoUITests;
+			sourceTree = "<group>";
+		};
+		3862A70A2C99A381009AD567 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3862A7112C99A7CB009AD567 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3862A70B2C99A38E009AD567 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3862A6DD2C9997F1009AD567 /* ContentView.swift */,
+				3862A6DB2C9997F1009AD567 /* ChainTechDemoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3862A70C2C99A397009AD567 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3862A70D2C99A3BE009AD567 /* EncryptionManager.swift */,
+				3862A70F2C99A5C6009AD567 /* PasswordManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3862A7112C99A7CB009AD567 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				385AB2B12C9AA66F00759A38 /* ViewModels */,
+				385AB2B02C9AA66B00759A38 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3862A7142C99C186009AD567 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3862A7152C99C1E1009AD567 /* Color+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385AB2B72C9AA6EF00759A38 /* PasswordDetailView.swift in Sources */,
+				3862A7102C99A5C6009AD567 /* PasswordManager.swift in Sources */,
+				385AB2B92C9AA71800759A38 /* PasswordStrengthView.swift in Sources */,
+				385AB2B32C9AA68700759A38 /* HomeViewModel.swift in Sources */,
+				3862A7162C99C1E1009AD567 /* Color+Hex.swift in Sources */,
+				3862A7132C99A7D9009AD567 /* HomeView.swift in Sources */,
 				3862A6E52C9997F5009AD567 /* Persistence.swift in Sources */,
+				385AB2B52C9AA6B000759A38 /* AddPasswordView.swift in Sources */,
 				3862A6DE2C9997F1009AD567 /* ContentView.swift in Sources */,
 				3862A6E82C9997F5009AD567 /* ChainTechDemo.xcdatamodeld in Sources */,
+				3862A70E2C99A3BE009AD567 /* EncryptionManager.swift in Sources */,
 				3862A6DC2C9997F1009AD567 /* ChainTechDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +521,7 @@
 				DEVELOPMENT_TEAM = W67H4LNHQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"We use Face ID to authenticate your identity securely and protect your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +551,7 @@
 				DEVELOPMENT_TEAM = W67H4LNHQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"We use Face ID to authenticate your identity securely and protect your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
